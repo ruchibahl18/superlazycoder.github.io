@@ -8,6 +8,6 @@
     Body: <textarea name="body" placeholder="Please enter your query" />
     <input type="submit" value="SUBMIT" />
     <input type="hidden" name="_subject" value="New query!" />
-    <input type="hidden" name="_next" value="https://ruchibahl18.github.io/superlazycoder.github.io/thanks.html" />
+    <input type="hidden" name="_next" value="https://ruchibahl18.github.io/superlazycoder.github.io/thanks.md" />
   </form>
 </body>
