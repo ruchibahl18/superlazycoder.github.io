@@ -15,6 +15,8 @@
     <textarea name="message"></textarea>
   </label>
   <!-- your other form fields go here -->
+  <input type="hidden" name="_subject" value="Contact request from personal website" />
   <button type="submit">Send</button>
+   <input type="_next" value="thanks.html" />
 </form>
 </body>
