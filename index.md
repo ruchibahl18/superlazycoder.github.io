@@ -3,8 +3,9 @@
 
 <body>
   <form
-  action="https://formspree.io/f/xrgjadad"
-  method="POST"
+        name="input" 
+        action="https://formspree.io/f/xrgjadad" 
+        method="POST"
 >
   <label>
     Your email:
@@ -17,7 +18,7 @@
   <!-- your other form fields go here -->
   <input type="hidden" name="_subject" value="New query submitted" />
   <input type="hidden" name="_next" value="https://ruchibahl18.github.io/superlazycoder.github.io/thanks" />
-  <button type="submit">Send</button>
+  <input type="submit" value="Send"></input>
   
 </form>
 </body>
