@@ -6,18 +6,19 @@
         name="input" 
         action="https://formspree.io/f/xrgjadad" 
         method="POST"
+        style="border: 3px solid green;"
 >
-    <div style="padding:10px;width:100%;display:flex;justify-content:space-between">
-      <label>
+    <div style="padding:10px;">
+      <label style="width:100%">
         Your email:
-        <input type="email" name="email">
       </label>
+      <input type="email" name="email">
     </div>
-    <div style="padding:10px;width:100%;display:flex;justify-content:space-between">
-      <label>
+    <div style="padding:10px">
+      <label style="width:100%">
         Your message:
-        <textarea name="message"></textarea>
-      </label><br/>
+      </label>
+      <textarea name="message"></textarea>
     </div>
   <!-- your other form fields go here -->
   <input type="hidden" name="_subject" value="New query submitted" />
