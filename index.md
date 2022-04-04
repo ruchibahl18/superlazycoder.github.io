@@ -8,3 +8,9 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Hello World
 
+<body>
+  <form action="/hello" method="GET">
+    Name: <input type="text" value="name" />
+    <button type="submit" value="SUBMIT" />
+  </form>
+</body>
