@@ -23,7 +23,7 @@
   <!-- your other form fields go here -->
     <input type="hidden" name="_subject" value="New query submitted" />
     <input type="hidden" name="_next" value="https://ruchibahl18.github.io/superlazycoder.github.io/thanks" />
-    <div style="display:flex;width:100%;align-content:center;padding:10px">
+    <div style="display:flex;width:100%;justify-content:center;padding:10px">
       <input type="submit" value="Send" />
     </div>
   
