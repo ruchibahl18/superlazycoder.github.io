@@ -15,8 +15,9 @@
     <textarea name="message"></textarea>
   </label>
   <!-- your other form fields go here -->
-  <input type="hidden" name="_subject" value="Contact request from personal website" />
+  <input type="hidden" name="_subject" value="New query submitted" />
+  <input type="hidden" name="_next" value="https://ruchibahl18.github.io/superlazycoder.github.io/thanks" />
   <button type="submit">Send</button>
-  <input type="hidden" name="_next" value="thanks.md" />
+  
 </form>
 </body>
