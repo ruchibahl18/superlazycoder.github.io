@@ -7,13 +7,13 @@
         action="https://formspree.io/f/xrgjadad" 
         method="POST"
 >
-    <div>
-      <label style="padding:10px;width:100%;">
+    <div style="padding:10px;width:100%;display:flex;justify-content:space-between">
+      <label>
         Your email:
         <input type="email" name="email">
       </label>
     </div>
-    <div style="padding:10px;width:100%;">
+    <div style="padding:10px;width:100%;display:flex;justify-content:space-between">
       <label>
         Your message:
         <textarea name="message"></textarea>
