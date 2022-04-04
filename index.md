@@ -1,16 +1,13 @@
-## Welcome to GitHub Pages
+## Email us for any queries
 
-You can use the [editor on GitHub](https://github.com/ruchibahl18/superlazycoder.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Hello World
 
 <body>
   <form action="/hello" method="GET">
-    Name: <input type="text" value="name" />
-    <button type="submit" value="SUBMIT" />
+    Name: <input type="text" name="name" placeholder="Your name" />
+    Email: <input type="email" name="email" placeholder="Your email" />
+    Body: <textarea name="body" placeholder="Please enter your query" />
+    <input type="submit" value="SUBMIT" />
+    <input type="hidden" name="_subject" value="New query!" />
+    <input type="hidden" name="_next" value="https://ruchibahl18.github.io/superlazycoder.github.io/thanks.html" />
   </form>
 </body>
