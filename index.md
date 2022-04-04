@@ -7,18 +7,18 @@
         action="https://formspree.io/f/xrgjadad" 
         method="POST"
 >
-  <label>
+  <label style="padding:10px">
     Your email:
     <input type="email" name="email">
   </label><br />
-  <label>
+  <label style="padding:10px">
     Your message:
     <textarea name="message"></textarea>
   </label><br/>
   <!-- your other form fields go here -->
   <input type="hidden" name="_subject" value="New query submitted" />
   <input type="hidden" name="_next" value="https://ruchibahl18.github.io/superlazycoder.github.io/thanks" />
-  <input type="submit" value="Send" />
+  <input type="submit" value="Send" style="padding:10px" />
   
 </form>
 </body>
