@@ -17,6 +17,6 @@
   <!-- your other form fields go here -->
   <input type="hidden" name="_subject" value="Contact request from personal website" />
   <button type="submit">Send</button>
-   <input type="_next" value="thanks.html" />
+  <input type="hidden" name="_next" value="thanks.md" />
 </form>
 </body>
